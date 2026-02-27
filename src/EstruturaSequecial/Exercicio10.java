@@ -11,9 +11,11 @@ import java.util.Scanner;
 public class Exercicio10 {
          public static void main(String[] args){
              Scanner entrada = new Scanner(System.in);
-             System.out.println("Quantos cavalos vc tem: ");
-             int cavalo  = entrada.nextInt();
-          System.out.println("A quantia de ferraduras necessarias sao: " + (cavalo*4));
+             System.out.println("Digite a altura do seu terreno: ");
+             int altura  = entrada.nextInt();
+             System.out.println("Digite a base  do seu terreno: ");
+             int base  = entrada.nextInt();
+          System.out.println("A area do terreno eh: " + ( base * altura));
         
          }
 }
