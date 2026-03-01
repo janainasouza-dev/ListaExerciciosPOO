@@ -26,21 +26,3 @@ public class Exercicio12 {
 }
 
 
-/*
-
-public class CalcularDezPorcento {
-    public static void main(String[] args) {
-        double valorOriginal = 150.0;
-        
-        // Forma 1: Multiplicar por 0.10
-        double dezPorcento = valorOriginal * 0.10;
-        
-        // Forma 2: Dividir por 10
-        // double dezPorcento = valorOriginal / 10;
-
-        System.out.println("Valor original: R$ " + valorOriginal);
-        System.out.println("10% do valor: R$ " + dezPorcento);
-    }
-}
-
-*/
