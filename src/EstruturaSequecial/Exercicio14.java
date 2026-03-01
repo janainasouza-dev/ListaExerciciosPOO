@@ -3,16 +3,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package EstruturaSequecial;
+
 import java.util.Scanner;
+
 /**
  *
  * @author jana
  */
-public class Exercicio13 {
-    public static void main(String[] args){
+public class Exercicio14 {
+        public static void main(String[] args){
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Digite sua idade: ");
-        int idade = entrada.nextInt();
-        System.out.println("Total de dias de vida: " + idade * 365);
+        System.out.println("Digite a quantidade de gasolina desejada: ");
+        float idade = entrada.nextFloat();
+        System.out.println("Preço total da gasolina: " + idade * 6.30);
     }
 }
