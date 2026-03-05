@@ -8,15 +8,13 @@ import java.util.Scanner;
  *
  * @author jana
  */
-public class Exercicio16 {
-    public static void main (String[] args){
+public class Exercicio23 
+{
+    public static void main(String[] args)
+    {
         Scanner entrada = new Scanner(System.in);
-        double n1 = entrada.nextDouble();
-        double n2 = entrada.nextDouble();
-        double n3 = entrada.nextDouble();
-        double media = (n1 * 1 + n2* 2 + n3 * 3)/6;
-        System.out.println("A Média do aluno eh:" + media);
-
-
+        int frangos = entrada.nextInt();
+        double total = frangos * (4.0 + 2 * 3.50);
+        System.out.println("Gasto total = " +  total);
     }
 }

@@ -8,15 +8,11 @@ import java.util.Scanner;
  *
  * @author jana
  */
-public class Exercicio16 {
-    public static void main (String[] args){
+public class Exercicio21 {
+        public static void main(String[] args){
         Scanner entrada = new Scanner(System.in);
-        double n1 = entrada.nextDouble();
-        double n2 = entrada.nextDouble();
-        double n3 = entrada.nextDouble();
-        double media = (n1 * 1 + n2* 2 + n3 * 3)/6;
-        System.out.println("A Média do aluno eh:" + media);
-
-
-    }
+        double celsius = entrada.nextDouble();
+        double fahrenheit = (celsius * 9/5) + 32;
+        System.out.printf("Fahrenheit = %.2f%n", fahrenheit);
+        }
 }
